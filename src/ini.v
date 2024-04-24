@@ -4,6 +4,8 @@ module ini
 #flag -I @VMODROOT/thirdparty/ini
 #flag @VMODROOT/thirdparty/ini-lib.o
 
+#include "ini.h"
+
 
 pub const global_section = 0
 pub const not_found = -1
